@@ -1,0 +1,66 @@
+[2024-01-14 19:38:30.0784431 | INF] KAPE directory: C:\Users\alish\Desktop\For Course Work 25 Dec 2023\For Course Work 25 Dec 2023\kape\KAPE
+[2024-01-14 19:38:30.0924330 | INF] Command line:   --msource C:\Users\alish\Desktop\Data\target --mdest C:\Users\alish\Desktop\Data\module --mflush --module !EZParser --gui 
+[2024-01-14 19:38:30.0944465 | INF] System info: Machine name: DESKTOP-EG25TKQ, 64-bit: true, User: alish OS: "Windows10" (10.0.22631)
+[2024-01-14 19:38:30.9737297 | INF] Using Module operations
+[2024-01-14 19:38:30.9909630 | WRN]   Flushing module destination directory C:\Users\alish\Desktop\Data\module
+[2024-01-14 19:38:31.0072818 | WRN]   Creating module destination directory C:\Users\alish\Desktop\Data\module
+[2024-01-14 19:38:31.0072818 | INF]   Module AmcacheParser: Found 1 processor
+[2024-01-14 19:38:31.0213128 | INF]     Found processor Executable: AmcacheParser.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory% -i --mp, Export: csv, Append: False!
+[2024-01-14 19:38:31.0213128 | INF]   Module AppCompatCacheParser: Found 1 processor
+[2024-01-14 19:38:31.0213128 | INF]     Found processor Executable: AppCompatCacheParser.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0213128 | INF]   Module EvtxECmd: Found 3 processors
+[2024-01-14 19:38:31.0213128 | INF]     Found processor Executable: EvtxECmd\EvtxECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0213128 | INF]   Module JLECmd: Found 3 processors
+[2024-01-14 19:38:31.0213128 | INF]     Found processor Executable: JLECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory% -q --mp, Export: csv, Append: False!
+[2024-01-14 19:38:31.0213128 | INF]   Module LECmd: Found 3 processors
+[2024-01-14 19:38:31.0213128 | INF]     Found processor Executable: LECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory% -q --mp, Export: csv, Append: False!
+[2024-01-14 19:38:31.0213128 | INF]   Module MFTECmd: Found 4 processors
+[2024-01-14 19:38:31.0213128 | INF]   Module MFTECmd_$Boot: Found 2 processors
+[2024-01-14 19:38:31.0213128 | INF]     Found processor Executable: MFTECmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0213128 | INF]   Module MFTECmd_$MFT: Found 2 processors
+[2024-01-14 19:38:31.0213128 | INF]     Found processor Executable: MFTECmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0369509 | INF]   Module MFTECmd_$J: Found 2 processors
+[2024-01-14 19:38:31.0369509 | INF]     Found processor Executable: MFTECmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0443627 | INF]   Module MFTECmd_$SDS: Found 2 processors
+[2024-01-14 19:38:31.0443627 | INF]     Found processor Executable: MFTECmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0468370 | INF]   Module PECmd: Found 3 processors
+[2024-01-14 19:38:31.0468370 | INF]     Found processor Executable: PECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory% --mp -q, Export: csv, Append: False!
+[2024-01-14 19:38:31.0468370 | INF]   Module RBCmd: Found 1 processor
+[2024-01-14 19:38:31.0528578 | INF]     Found processor Executable: RBCmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory% -q, Export: csv, Append: False!
+[2024-01-14 19:38:31.0528578 | INF]   Module RecentFileCacheParser: Found 2 processors
+[2024-01-14 19:38:31.0528578 | INF]     Found processor Executable: RecentFileCacheParser.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0528578 | INF]   Module RECmd_Kroll: Found 1 processor
+[2024-01-14 19:38:31.0528578 | INF]     Found processor Executable: RECmd\RECmd.exe, Cmd line: -d %sourceDirectory% --bn BatchExamples\Kroll_Batch.reb --nl false --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0528578 | INF]   Module SBECmd: Found 1 processor
+[2024-01-14 19:38:31.0528578 | INF]     Found processor Executable: SBECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0684937 | INF]   Module SQLECmd: Found 2 processors
+[2024-01-14 19:38:31.0684937 | INF]     Found processor Executable: SQLECmd\SQLECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0743147 | INF]   Module SrumECmd: Found 1 processor
+[2024-01-14 19:38:31.0743147 | INF]     Found processor Executable: SrumECmd.exe, Cmd line: -d %sourceDirectory% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0774341 | INF]   Module SumECmd: Found 1 processor
+[2024-01-14 19:38:31.0774341 | INF]     Found processor Executable: SumECmd.exe, Cmd line: -d %sourceDirectory%\Windows\System32\LogFiles\SUM --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0803712 | INF]   Module WxTCmd: Found 1 processor
+[2024-01-14 19:38:31.0803712 | INF]     Found processor Executable: WxTCmd.exe, Cmd line: -f %sourceFile% --csv %destinationDirectory%, Export: csv, Append: False!
+[2024-01-14 19:38:31.0845157 | INF] Discovered 18 processors to run
+[2024-01-14 19:38:31.0862691 | INF] Executing modules with file masks...
+[2024-01-14 19:38:31.1030075 | INF]   Skipping AmcacheParser.exe: No matching files found for Amcache.hve!
+[2024-01-14 19:38:31.1050965 | INF]   Running AppCompatCacheParser.exe: -f "C:\Users\alish\Desktop\Data\target\D\Windows\System32\config\system" --csv C:\Users\alish\Desktop\Data\module\ProgramExecution
+[2024-01-14 19:38:33.8862910 | INF]   Running MFTECmd.exe: -f "C:\Users\alish\Desktop\Data\target\D\$Boot" --csv C:\Users\alish\Desktop\Data\module\FileSystem
+[2024-01-14 19:38:35.9500539 | INF]   Running MFTECmd.exe: -f "C:\Users\alish\Desktop\Data\target\D\$MFT" --csv C:\Users\alish\Desktop\Data\module\FileSystem
+[2024-01-14 19:38:37.9160011 | INF]   Skipping MFTECmd.exe: No matching files found for $UsnJrnl%3A$J|$J!
+[2024-01-14 19:38:37.9191162 | INF]   Running MFTECmd.exe: -f "C:\Users\alish\Desktop\Data\target\D\$Secure_$SDS" --csv C:\Users\alish\Desktop\Data\module\FileSystem
+[2024-01-14 19:38:38.7879920 | INF]   Skipping RecentFileCacheParser.exe: No matching files found for RecentFileCache.bcf!
+[2024-01-14 19:38:38.7920132 | INF]   Skipping WxTCmd.exe: No matching files found for ActivitiesCache.db!
+[2024-01-14 19:38:38.7937451 | INF] Executing remaining modules...
+[2024-01-14 19:38:38.7937451 | INF]   Running EvtxECmd\EvtxECmd.exe: -d C:\Users\alish\Desktop\Data\target --csv C:\Users\alish\Desktop\Data\module\EventLogs
+[2024-01-14 19:38:41.3723956 | INF]   Running JLECmd.exe: -d C:\Users\alish\Desktop\Data\target --csv C:\Users\alish\Desktop\Data\module\FileFolderAccess -q --mp
+[2024-01-14 19:38:42.7592992 | INF]   Running LECmd.exe: -d C:\Users\alish\Desktop\Data\target --csv C:\Users\alish\Desktop\Data\module\FileFolderAccess -q --mp
+[2024-01-14 19:38:44.2701926 | INF]   Running PECmd.exe: -d C:\Users\alish\Desktop\Data\target --csv C:\Users\alish\Desktop\Data\module\ProgramExecution --mp -q
+[2024-01-14 19:38:45.4904241 | INF]   Running RBCmd.exe: -d C:\Users\alish\Desktop\Data\target --csv C:\Users\alish\Desktop\Data\module\FileDeletion -q
+[2024-01-14 19:38:46.3817114 | INF]   Running RECmd\RECmd.exe: -d C:\Users\alish\Desktop\Data\target --bn BatchExamples\Kroll_Batch.reb --nl false --csv C:\Users\alish\Desktop\Data\module\Registry
+[2024-01-14 19:38:54.9416341 | INF]   Running SBECmd.exe: -d C:\Users\alish\Desktop\Data\target --csv C:\Users\alish\Desktop\Data\module\FileFolderAccess
+[2024-01-14 19:38:56.6122131 | INF]   Running SQLECmd\SQLECmd.exe: -d C:\Users\alish\Desktop\Data\target --csv C:\Users\alish\Desktop\Data\module\SQLDatabases
+[2024-01-14 19:38:58.0193394 | INF]   Running SrumECmd.exe: -d C:\Users\alish\Desktop\Data\target --csv C:\Users\alish\Desktop\Data\module\SRUMDatabase
+[2024-01-14 19:38:58.8716799 | INF]   Running SumECmd.exe: -d C:\Users\alish\Desktop\Data\target\Windows\System32\LogFiles\SUM --csv C:\Users\alish\Desktop\Data\module\SUMDatabase
+[2024-01-14 19:38:59.6976464 | INF] Executed 18 processors in 28.6869 seconds
+[2024-01-14 19:38:59.6976464 | INF] Total execution time: 28.7162 seconds
